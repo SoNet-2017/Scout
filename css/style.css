@@ -31,7 +31,7 @@ th {
 }
 
 td {
-    text-align: left;
+    text-align: justify;
     padding: 5px 10px;
     border-bottom: 1px solid rgb(79,202,88);
     border-right: 1px solid rgb(79,202,88);
@@ -74,9 +74,9 @@ header h1 {
 
 #banner {
     z-index: 100;
-    left: 15%;
+    left:0px;
     /*right: 5px;*/
-    width: 70%;
+    width: 100%;
     height: 50px;
     /*margin-right: -382px;*/
     position: fixed;
@@ -112,7 +112,7 @@ header h1 {
     -webkit-box-shadow: 0px 4px 4px 2px rgba(128,128,128,0.5);
     -moz-box-shadow: 0px 4px 4px 2px rgba(128,128,128,0.5);
     box-shadow: 0px 4px 4px 2px rgba(128,128,128,0.5);
-    width: 40%;
+    width: 25%;
     text-align: left;
     border-radius: 0px 0px 5px 5px;
     margin-left: -0.01%;
@@ -190,7 +190,7 @@ a {
 
 section {
     overflow: hidden;
-    width: 590px;
+    width: 650px;
     padding: 30px 30px 50px 30px;
     margin: 20px 0;
     margin-top: 190px;
@@ -202,8 +202,10 @@ section {
 }
 
 
+
+
 footer {
-    width: 650px;
+    width: 715px;
     height: 30px;
     /*margin-right: -382px;*/
     position: relative;
@@ -253,8 +255,9 @@ img[alt=diagram1] {
     padding-left: 15px;
     padding-right: 15px;
     margin: 20px;
-    border-radius: 2%;
+    border-radius: 5px;
 }
+
 
 /*.subsection:last-of-type
 {
