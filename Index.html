@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scout Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="script/script.js"></script>
+</head>
+<body>
+
+<header>
+    <div class="clearfixed hidden-xs">
+        <div class="col-xs-3">
+            <img id="logo" src="drawable/octocat-logo.png"/>
+        </div>
+        <div class="col-xs-6">
+            <h1>ScoutTeam</h1>
+        </div>
+        <div class="col-xs-3">
+            <p id="open"><span onclick="openNav()">&#9776; Menù</span></p>
+        </div>
+    </div>
+</header>
+
+
+<div id="mySidenav" class="wrapper sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#nome-del-progetto-e-repository-github">Nome del progetto e repository github</a>
+                <a href="#membri-del-team">Membri del team</a>
+                <a href="#presentazione-concept">Presentazione del concept</a>
+                <a href="#funzionalita-e-architettura">Funzionalità e architettura</a>
+                <a href="#mockup">Mockup</a>
+                <a href="#video">Video</a>
+                <a href="#valutazione-con-gli-utenti">Valutazione con gli utenti</a>
+                <a id="github" href="https://github.com/SoNet-2017/Scout">View On Github</a>
+</div>
+
+
+
+<div id="main">
+    <section>
+        <div class="subsection">
+
+            <span class="anchor" id="nome-del-progetto-e-repository-github"></span>
+            <h2 >Nome del progetto e repository github</h2>
+
+            <p>Nome del progetto: BlaBlaBla</p>
+            <p>Repository del sito di presentazione progetto: <a href="https://github.com/SoNet-2017/Scout">https://github.com/SoNet-2017/Scout</a></p>
+            <p>Repository del prototipo (codice): <a href="https://github.com/SoNet-2017/Scout-code">https://github.com/SoNet-2017/Scout-code</a></p>
+
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="membri-del-team"></span>
+            <h2>Membri del team</h2>
+
+            <table>
+                <thead>
+                <tr>
+                    <td style="text-align: center">244167</td>
+                    <td style="text-align: center">Capanna</td>
+                    <td style="text-align: center">Cristiano</td>
+                    <td style="text-align: center">cristiano.antonio.capanna@gmail.com</td>
+                    <td style="text-align: center">CristianoCap</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">241868</td>
+                    <td style="text-align: center">Montrucchio</td>
+                    <td style="text-align: center">Simone</td>
+                    <td style="text-align: center">simo.montrucchio@gmail.com</td>
+                    <td style="text-align: center">simonemontrucchio</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">242238</td>
+                    <td style="text-align: center">Seca</td>
+                    <td style="text-align: center">Giacomo</td>
+                    <td style="text-align: center">giac.seca@gmail.com</td>
+                    <td style="text-align: center">oGiacomo</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="presentazione-concept"></span>
+            <h2>Presentazione del concept</h2>
+
+            <span class="anchor" id="concept"></span>
+            <h3>Vision</h3>
+
+            <p>
+                Il nostro progetto ha come tema principale il mondo scout. Più precisamente si rivolge a ragazzi scout di 11 anni circa, ed i loro relativi supervisori, i Capi.
+                Non è presente un vero e proprio competitor (solo “Scoutbook”, un social americano ma funzionalmente diverso), niente che consenta ai ragazzi di avere una loro pagina principale, con i traguardi raggiunti, gli obiettivi futuri, i loro gruppi, i loro prossimi impegni ed ai Capi di poter gestire comodamente le attività, organizzare eventi e proseguire nel loro compito educativo.
+
+            </p>
+
+            <span class="anchor" id="target"></span>
+            <h3>Target</h3>
+
+            <p>
+                Essendo un prodotto per un gruppo di persone già ben definito, come già detto il nostro target comprende ragazzi scout di 11 anni circa, primo anno di scuola media ed età preadolescienziale dunque, ed i loro Capi, di età variabile dagli x agli x anni.
+            </p>
+
+            <span class="anchor" id="personas"></span>
+            <h3>Personas</h3>
+
+            <p>Persona A: Ragazzo scout di 11 anni, possiede il suo profilo personale dove può inserire il suo gruppo di appartenenza, i traguardi raggiunti e personalizzarlo con immagini proprie identificative. Attraverso il social rimane informato sui prossimi eventi a cui dovrà partecipare, gli obiettivi da raggiungere per aumentare il suo grado, sia nel mondo reale che in quello virtuale.
+                Persona B: Capo scout. Ha la funzione di creare le pagine dei profili dei propri ragazzi. Può gestire così le attività in programma, inserendo eventi od avvisi, ed assegnare compiti. Deve fare anche da “moderatore” data la sua funzione di educatore sociale.
+            </p>
+
+            <span class="anchor" id="scenarios"></span>
+            <h3>Scenarios</h3>
+
+            <p>La Persona B crea i profili base dei 20 ragazzi di cui ha la supervisione nella vita reale. Inserisce le loro principali informazioni ed aiuta i ragazzi nella iscrizione.
+                Una volta creati questi profili, le Persone A vi accedono. Nella loro pagina principali, una Persona A può effettuare una propria personalizzazione della pagina, con immagini da aggiungere al proprio stendardo o cose così. Aggiunge inoltre il proprio gruppo, ed inserisce il proprio grado misurato in medagliette.
+                Quando avvengono delle attività nella vita reale, una Persona B, attraverso avvisi od eventi, l’attività anche sul social. Questa attività può spaziare dal promemoria di un campo che avverrà in un determinato giorno, o qualche tipo di compito assegnato ad i vari gruppi.
+                La Persona A, che fa parte di un certo gruppo, riceve la notifica dell’aggiornamento dell’obiettivo o dell’evento a cui deve far parte.
+                Se si tratta di un obiettivo che deve essere raggiunto attraverso prove, la Persona A sa che può riuscirci anche attraverso la sua attività sul social network, che potrà consentire un aumento delle medagliette e riconoscimenti al proprio gruppo. Sia nel reale che nel virtuale.
+                La Persona B segue così l’andamento di ciò che da lui era stato assegnato, avendo numerose possibilità in più per far apprendere qualcosa. In più può controllare la partecipazione alle attività in maniera chiara e non impegnativa.
+            </p>
+
+
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="funzionalita-e-architettura"></span>
+            <h2>Funzionalità e architettura</h2>
+
+            <span class="anchor" id="funzionalita-complete-del-social-network"></span>
+            <h3>Funzionalità complete del social network</h3>
+
+            <p>Inserire una tabella in cui sono elencate (ad alto livello) TUTTE le funzionalità del vostro social network, anche quelle che
+                non compariranno nel prototipo.</p>
+
+            <table>
+                <thead>
+                <tr>
+                    <th style="text-align: center">Funzionalità complete</th>
+                    <th style="text-align: center">Descrizione</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità A</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità A</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità B</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità B</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">...</td>
+                    <td style="text-align: center">...</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <span class="anchor" id="funzionalita-da-implementare-dettagliate"></span>
+            <h3>Funzionalità dettagliate da implementare</h3>
+
+            <p>Inserire una tabella in cui sono elencate SOLO le funzionalità del vostro social network (a basso livello) che COMPARIRANNO NEL PROTOTIPO.
+                Inserire un riferimento alla funzionalità completa a cui fanno riferimento</p>
+
+            <p>Se vengono fatte delle semplificazioni inserirle in questa sezione, sotto la tabella.</p>
+
+            <table>
+                <thead>
+                <tr>
+                    <th style="text-align: center">Funzionalità</th>
+                    <th style="text-align: center">Descrizione</th>
+                    <th style="text-align: center">Riferimento funzionalità completa</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 1</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 1</td>
+                    <td style="text-align: center">Nome della funzionalità A</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 2</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 2</td>
+                    <td style="text-align: center">Nome della funzionalità A</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 3</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 3</td>
+                    <td style="text-align: center">Nome della funzionalità A</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 4</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 4</td>
+                    <td style="text-align: center">Nome della funzionalità B</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 5</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 5</td>
+                    <td style="text-align: center">Nome della funzionalità B</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Nome della funzionalità 6</td>
+                    <td style="text-align: center">Breve descrizione della funzionalità 6</td>
+                    <td style="text-align: center">Nome della funzionalità B</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">...</td>
+                    <td style="text-align: center">...</td>
+                    <td style="text-align: center">...</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <span class="anchor" id="architettura-dellinformazione"></span>
+            <h3>Architettura dell'informazione</h3>
+
+            <p>Inserire i diagrammi in grado di descrivere adeguatamente la struttura del vostro social network e/o il flusso di
+                interazione dell'utente</p>
+
+
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="mockup"></span>
+            <h2>Mockup</h2>
+
+            <p>Inserire il mockup realizzato con Balsamiq</p>
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="video"></span>
+            <h2>Video</h2>
+
+            <p>Inserire il video di "promozione" del vostro social network</p>
+            <hr/>
+        </div>
+        <div class="subsection">
+            <span class="anchor" id="valutazione-con-gli-utenti"></span>
+            <h2>Valutazione con gli utenti</h2>
+
+            <span class="anchor" id="profilo-degli-utenti"></span>
+            <h3>Profilo degli utenti</h3>
+
+            <p>Descrizione sintetica di tutte le caratteristiche degli utenti che hanno partecipato alla valutazione del prototipo.
+                Tale descrizione deve necessariamente contenere almeno il numero degli utenti, l'età, il genere e le caratteristiche rilevanti nel caso
+                specifico del vostro social network (ad esempio il corso di studio e l'anno se studenti, oppure la professione, oppure gli interessi, ...)</p>
+
+            <span class="anchor" id="strumenti-della-valutazione"></span>
+            <h3>Strumenti della valutazione</h3>
+
+            <p>Questa sezione deve contenere gli strumenti usati durante la valutazione (questionari e/o traccia delle interviste)</p>
+
+            <span class="anchor" id="risultato-della-valutazione"></span>
+            <h3>Risultato della valutazione</h3>
+
+            <p>Questa sezione deve contenere la sintesi dei risultati della valutazione, possibilmente in forma di grafici</p>
+
+            <span class="anchor" id="analisi-critica-e-lavoro-futuro"></span>
+            <h3>Analisi critica e lavoro futuro</h3>
+
+            <p>Questa sezione deve contenere una breve analisi degli eventuali problemi riscontrati durante la valutazione e le modifiche
+                da implementare nella (ipotetica) seconda versione del prototipo</p>
+
+            <hr/>
+        </div>
+    </section>
+    <footer>
+
+        <p>Project maintained by <a href="https://github.com/SoNet-2017">SoNet-2017</a></p>
+
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+    </footer>
+</div>
+
+<!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
