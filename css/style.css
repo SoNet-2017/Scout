@@ -61,10 +61,6 @@ header img{
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 
 #main{
-    /*CONTENUTO OTTIMIZZATO AL CENTRO*/
-    max-width: 1120px; /* Default Width */
-    margin: 0 auto;
-
     text-align: justify;
     transition: 0.5s;
     position: relative;
@@ -100,7 +96,7 @@ table {
 }
 
 th, td {
-    padding: 15px
+    padding: 15px;
 }
 
 
@@ -170,15 +166,17 @@ footer p a:hover, .offcanvas a:focus{
 
 
 
-/* On smaller screens, where height is less than 720px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-width: 720px) {
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
     #open{font-size: 18px;}
 
 }
 
-
+@media screen and (max-width: 450px){
+    #open {font-size: 18px}
+}
 
 #github:hover, offcanvas #github:focus{
     color: maroon;
