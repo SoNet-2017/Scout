@@ -59,21 +59,18 @@ header img{
 /*------> MAIN CONTENUTO PRINCIPALE <------*/
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
 #main{
     text-align: justify;
     transition: 0.5s;
     position: relative;
-    margin-top: 110px;
+    top: 110px;
+    overflow:hidden;
 }
 #main a:hover, .offcanvas a:focus{
     color: maroon;
     text-decoration: none;
 
-}
-
-section{
-    overflow: hidden;
-    position: relative;
 }
 
 .subsection{
@@ -132,7 +129,7 @@ footer p a:hover, .offcanvas a:focus{
     z-index: 100; /* Stay on top */
     top: 0;
     left: 0;
-    background: -webkit-gradient(linear, right top, left bottom, from(rgb(255,255,128)), to(rgb(200,255,128)));
+    background: -webkit-gradient(linear,right top, left top, from(rgb(255,255,128)), to(rgb(26,140,63)));
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -154,7 +151,7 @@ footer p a:hover, .offcanvas a:focus{
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
-    color: rgb(26,140,63);
+    color: maroon;
     text-decoration: none;
 }
 
