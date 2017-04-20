@@ -178,7 +178,7 @@ footer p a:hover, .offcanvas a:focus{
 }
 
 @media screen and (max-width: 450px){
-    #open {font-size: 18px;}
+    #open {font-size: 18px}
 }
 
 #github:hover, offcanvas #github:focus{
