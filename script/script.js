@@ -1,4 +1,4 @@
-var mq = window.matchMedia( "(min-width: 480px)" );
+var mq = window.matchMedia( "(min-width: 750px)" );
 
 
 if (mq.matches) {
