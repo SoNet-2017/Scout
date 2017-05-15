@@ -124,6 +124,26 @@ th {
 }
 
 
+.funzionalita-det td:first-child {
+    width: 80%;
+    text-align: left ;
+    padding-left: 2em;
+}
+
+.funzionalita-det td:nth-child(2) {
+    width: 20%;
+}
+
+.border-bot {
+    border-bottom-color: darkgrey;
+}
+
+
+.architettura {
+    max-width: 100%;
+}
+
+
         /*-----------FOOTER----------*/
 
 footer{
