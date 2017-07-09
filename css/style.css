@@ -230,3 +230,22 @@ footer p a:hover, .offcanvas a:focus{
 
 
 /*------> FINE CSS PER SIDENAV <---------*/
+
+
+
+
+
+
+
+
+
+.fare {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+
+.non-fare {
+    color: darkgrey;
+    text-align: center;
+}
